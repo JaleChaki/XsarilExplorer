@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XsarilExplorer", "XsarilExplorer\XsarilExplorer.csproj", "{FB03D6EE-4433-43B6-9E2F-3125AB85B2AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XsarilExplorerApi", "XsarilExplorerApi\XsarilExplorerApi.csproj", "{20525524-3A1B-4F77-BCAE-40D93B59F663}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{E44E30B7-3457-4D45-9610-F02C48DCE82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcRunner", "ProcRunner\ProcRunner.csproj", "{A4C88390-A4BD-47AD-94CE-05DBBC53B818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipUnpacker", "ZipUnpacker\ZipUnpacker.csproj", "{891B59E9-9FB6-42BA-AD5B-A6709C45E791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderJump", "FolderJump\FolderJump.csproj", "{34A9D8C2-EB1B-4E27-9DFE-7A2E2A95AE38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeVideoDownloader", "YoutubeVideoDownloader\YoutubeVideoDownloader.csproj", "{C29DEAD2-6877-4FA9-9086-11FE86158BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeVideoDownloaderPlugin", "YoutubeVideoDownloaderPlugin\YoutubeVideoDownloaderPlugin.csproj", "{D6B05DB4-416C-4607-97AB-4024FE7C1C72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB03D6EE-4433-43B6-9E2F-3125AB85B2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB03D6EE-4433-43B6-9E2F-3125AB85B2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB03D6EE-4433-43B6-9E2F-3125AB85B2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB03D6EE-4433-43B6-9E2F-3125AB85B2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20525524-3A1B-4F77-BCAE-40D93B59F663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20525524-3A1B-4F77-BCAE-40D93B59F663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20525524-3A1B-4F77-BCAE-40D93B59F663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20525524-3A1B-4F77-BCAE-40D93B59F663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C88390-A4BD-47AD-94CE-05DBBC53B818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C88390-A4BD-47AD-94CE-05DBBC53B818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C88390-A4BD-47AD-94CE-05DBBC53B818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C88390-A4BD-47AD-94CE-05DBBC53B818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{891B59E9-9FB6-42BA-AD5B-A6709C45E791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891B59E9-9FB6-42BA-AD5B-A6709C45E791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891B59E9-9FB6-42BA-AD5B-A6709C45E791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891B59E9-9FB6-42BA-AD5B-A6709C45E791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A9D8C2-EB1B-4E27-9DFE-7A2E2A95AE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A9D8C2-EB1B-4E27-9DFE-7A2E2A95AE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A9D8C2-EB1B-4E27-9DFE-7A2E2A95AE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A9D8C2-EB1B-4E27-9DFE-7A2E2A95AE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29DEAD2-6877-4FA9-9086-11FE86158BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29DEAD2-6877-4FA9-9086-11FE86158BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29DEAD2-6877-4FA9-9086-11FE86158BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29DEAD2-6877-4FA9-9086-11FE86158BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B05DB4-416C-4607-97AB-4024FE7C1C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B05DB4-416C-4607-97AB-4024FE7C1C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B05DB4-416C-4607-97AB-4024FE7C1C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B05DB4-416C-4607-97AB-4024FE7C1C72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4C88390-A4BD-47AD-94CE-05DBBC53B818} = {E44E30B7-3457-4D45-9610-F02C48DCE82E}
+		{891B59E9-9FB6-42BA-AD5B-A6709C45E791} = {E44E30B7-3457-4D45-9610-F02C48DCE82E}
+		{34A9D8C2-EB1B-4E27-9DFE-7A2E2A95AE38} = {E44E30B7-3457-4D45-9610-F02C48DCE82E}
+		{C29DEAD2-6877-4FA9-9086-11FE86158BA3} = {E44E30B7-3457-4D45-9610-F02C48DCE82E}
+		{D6B05DB4-416C-4607-97AB-4024FE7C1C72} = {E44E30B7-3457-4D45-9610-F02C48DCE82E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2F16ABD-5500-425D-8D3C-673C0B7FBEB6}
+	EndGlobalSection
+EndGlobal

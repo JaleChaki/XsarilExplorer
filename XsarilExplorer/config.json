@@ -1,0 +1,7 @@
+{
+  "ButtonPositionX": 1870,
+  "ButtonPositionY": 1030,
+  "LoopInterval": 200,
+  "ActivateOnShow": true,
+  "PluginsFilelist": "Plugins.json"
+}
