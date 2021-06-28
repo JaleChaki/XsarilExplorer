@@ -39,7 +39,7 @@ namespace YoutubeVideoDownloader {
 			VideoInfoPanel.Visible = true;
 			VideoPreview.Image = info.Preview;
 			VideoTitleLabel.Text = info.Video.Title;
-			AuthorLabel.Text = info.Video.Author;
+			AuthorLabel.Text = info.Video.Author.Title;
 			DurationLabel.Text = info.Video.Duration.ToString();
 			int height = DownloadButtonContainer.Height / 2 - 10;
 			SelectedStreamManifest = info.StreamManifest;
@@ -53,9 +53,9 @@ namespace YoutubeVideoDownloader {
 				caption.AppendLine(m.Container.Name);
 				if (m is IVideoStreamInfo s) {
 					caption
-						.Append(s.Resolution.Width + "x" + s.Resolution.Height)
+						.Append(s.VideoResolution.Width + "x" + s.VideoResolution.Height)
 						.Append("\n")
-						.Append((int)s.Framerate.FramesPerSecond + " FPS\n");
+						.Append(s.VideoQuality.Framerate + " FPS\n");
 				}
 				if (m is VideoOnlyStreamInfo) {
 					caption.Append("(video only)");

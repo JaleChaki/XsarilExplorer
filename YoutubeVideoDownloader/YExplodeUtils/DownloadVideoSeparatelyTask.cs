@@ -43,7 +43,7 @@ namespace YoutubeVideoDownloader.YExplodeUtils {
 		private async Task RunAsync() {
 			List<IStreamInfo> streams = new List<IStreamInfo>();
 			streams.Add(StreamInfo);
-			streams.Add(Manifest.GetAudioOnly().First());
+			streams.Add(Manifest.GetAudioOnlyStreams().First());
 			await Client.Videos.DownloadAsync(streams, new ConversionRequestBuilder(Path).SetFFmpegPath("FFMpeg/ffmpeg.exe").Build(), ReportingCallback);
 			if (Path.EndsWith("mp3")) {
 				string trueName = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(Path), System.IO.Path.GetFileNameWithoutExtension(Path) + ".webm");

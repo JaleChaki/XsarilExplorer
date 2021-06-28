@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using YoutubeExplode;
@@ -50,13 +51,13 @@ namespace YoutubeVideoDownloader.YExplodeUtils {
 			StatusChangeCallback?.Invoke(GetVideoStatus.GetThumbnail);
 
 			using (WebClient client = new WebClient()) {
-				string thumbnailUrl = Result.Thumbnails.MaxResUrl;
+				string thumbnailUrl = Result.Thumbnails.Last().Url;
 				Stream s = null;
 				try {
 					s = client.OpenRead(thumbnailUrl);
 				}
 				catch (WebException) {
-					thumbnailUrl = Result.Thumbnails.MediumResUrl;
+					//thumbnailUrl = Result.Thumbnails.Last().;
 				}
 				finally {
 					s?.Dispose();
